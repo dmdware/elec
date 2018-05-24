@@ -11,7 +11,7 @@ v3f partp[PARTS] = {
 	{0.32f, 0.49f, 0.89f},
 	{0.73f, 0.74f, 0.47f} };
 float partq[PARTS] =
-	{ 1, 0, -1, -1 };
+	{ 1, -1, 1, -1 };
 float partm[PARTS] =
 	{ -100, 101, 10, 50 };
 v3f partv[PARTS] = {

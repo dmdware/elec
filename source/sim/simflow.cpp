@@ -31,8 +31,8 @@ void upsim()
 			g = - partm[i] * partm[j];
 			e /= partm[i];
 			g /= partm[i];
-			v3fmul(&a, a, //e / 10000.0f+
-				g / 10000.0f);
+			v3fmul(&a, a, e / 1.0f);// +
+				//g / 10000.0f);
 			v3fadd(&partv[i], partv[i], a);
 		}
 	}
